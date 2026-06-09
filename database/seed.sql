@@ -1,7 +1,7 @@
 USE eversales;
 
 INSERT INTO users (full_name, email, password, role, phone_number) VALUES
-('Admin user', 'amritkumargaldentamang@gmail.com', 'amrikumargalden', 'admin', '1234567890'),
+('Admin', 'amritkumargaldentamang@gmail.com', 'amrikumargalden', 'admin', '1234567890'),
 ('John Doe', 'johndoe@example.com', 'password123', 'customer', '0987654321');
 
 INSERT INTO products (name, description, price, stock)
